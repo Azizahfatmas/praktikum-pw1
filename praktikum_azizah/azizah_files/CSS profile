@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en" <head>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Profile Azizah</title> 
+  <style>
+   div {
+     display: flex;
+   }
+   .satu {
+    margin-left: 10px; 
+    text-indent: 1.5%;
+   }
+   aside {
+   margin-left: auto;
+   text-align: right;  
+   }
+   p {
+     text-align: left;
+     font-size: 10px;
+     font-weight: bold:300;
+   }
+   #td1 {
+     text-align: center; 
+   }
+   video {
+     float: left;  
+     margin: 1px;
+   }
+   #img1 {
+     margin: left;
+   }
+   #img2 {
+     margin: right;
+   }
+   #img3 {
+     margin: bottom;
+   }
+   #img4 {
+     margin: top;
+   }
+   #fieldset1 {
+     display: block;
+     min-width: 0;
+     max-width: 8%;
+     width: 30%;
+     text-overflow: clip;
+     float: center;
+   }
+   #fieldset2 {
+     float: right;
+     margin: 80px;
+     margin-right: 20px; 
+   }
+  </style> 
+ </head> 
+ <body> 
+  <fieldset> 
+   <legend>14F-Directory Profile Page</legend> 
+   <div> 
+    <img src="WhatsApp Image 2021-10-07 at 14.12.13.jpeg" widht="300" height="200" <div> 
+    <table class="satu"> 
+     <tbody> 
+      <tr> 
+       <td id="td1"><b>Profile Azizah Fatma Sunardi</b></td> 
+      </tr> 
+      <tr> 
+       <td>Alamat</td> 
+       <td>: Kp. Batu gede rt.07/07 no. 42 Desa Cilebut Barat Kabupaten Bogor Kecamatan Sukaraja</td> 
+      </tr> 
+      <tr> 
+       <td>Email</td> 
+       <td>: <a href="#">azizahsunardi611@gmail.com</a></td> 
+      </tr> 
+      <tr> 
+       <td>Telephone</td> 
+       <td>: 087799098736</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <aside> 
+     <p><b><u>Categoris</u></b></p> 
+     <p>Lorem ipsum</p> 
+     <p>dolor sit</p> 
+     <p>amet</p> 
+     <p>dolor sit</p> 
+    </aside> 
+   </div> 
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+   <video width="150" controls preload="metadata"> 
+    <source src="/media/video/myVideo.mp4" type="video/mp4"> 
+   </video> 
+   <fieldset id="fieldset1"> 
+    <img id="img1" src="WhatsApp Image 2021-10-07 at 14.12.13.jpeg" widht="150" height="150" <div> 
+    <img id="img2" src="WhatsApp Image 2021-10-07 at 14.12.13.jpeg" widht="150" height="150" <div> 
+    <img id="img3" src="WhatsApp Image 2021-10-07 at 14.12.13.jpeg" widht="150" height="150" <div> 
+    <img id="img4" src="WhatsApp Image 2021-10-07 at 14.12.13.jpeg" widht="150" height="150" <div> 
+   </fieldset>
+   <fieldset id="fieldset2">
+    <legend>Attachments</legend>
+    <p><a href="#">azizahsunardi611@gmail.com</a></p>
+    <p><a href="#">azizahsunardi611@gmail.com</a></p>
+    <p><a href="#">azizahsunardi611@gmail.com</a></p>
+    <p><a href="#">azizahsunardi611@gmail.com</a></p>
+   </fieldset> 
+  </fieldset> 
+ </body>
+</html>
