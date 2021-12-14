@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal no 2</title>
+    <script>
+        function hitung_dollar(){
+            if(kurs.value == "dollar"){
+                let nilai = Number(document.getElementById("nilai").value);
+                let dollar = 14650
+                let hasil = nilai * dollar
+                document.getElementById("hasil").value=hasil
+
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="nilai" onchange="hitung_dollar()">
+    <input type="text" id="kurs" value="dollar">
+    <input type="text" id="hasil">
+</body>
+</html>
